@@ -24,7 +24,7 @@ const Event = props => {
       <EventAbout event={event} messages={messages} />
       <EventSectors event={event} messages={messages} />
       <EventAttractions event={event} messages={messages} />
-      <EventServicesIncluded />
+      <EventServicesIncluded onSubimit={null}/>
       <EventMoreEvents event={event} messages={messages} />
     </Layout>
   );
